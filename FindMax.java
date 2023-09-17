@@ -1,5 +1,4 @@
-// Online Java Compiler
-// Use this editor to write, compile and run your Java code online
+//Find the max Index
 
 import java.lang.Math;
 import java.util.*;
