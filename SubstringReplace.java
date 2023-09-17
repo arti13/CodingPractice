@@ -6,13 +6,6 @@ public class RemoveSubstr{
     public static void remove(String str){
         String target = "AWS";
         String processed = str.replaceAll(target, "");
-        
-        int startIndex = str.indexOf(target);
-        int stopIndex = startIndex + target.length();
-
-        StringBuilder builder = new StringBuilder(str);
-        builder.delete(startIndex, stopIndex);
-        
         System.out.println(processed);
         
     }
@@ -20,7 +13,6 @@ public class RemoveSubstr{
        Scanner sc = new Scanner(System.in);
        System.out.println("Please enter the string ");
        String s = sc.nextLine();
-       remove(s);
-       
+       remove(s);       
     }
 }
